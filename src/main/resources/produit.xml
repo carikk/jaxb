@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<produit a_archiver="false" categProduit="AVS" date_creation="2005-12-22T18:39:56" date_maj="2020-02-03T19:35:45" etablissement="ETAB" famille="AF1304" id="00161134" libelle="Lionvie Liberté PEP" maj_by_user="HARVEST" statut="INTEGRE" type_produit="SIMPLE" valide="true">
+    <ref_externes>
+        <ref_externe produit_id="00161134" system_id="SI_LCL">
+        </ref_externe>
+    </ref_externes>
+    <prod_modeles_stock>
+        <prod_modele_stock code="PEP_ASSVIE_UC" type="FIN">
+        </prod_modele_stock>
+        <prod_modele_stock code="" type="IR">
+        </prod_modele_stock>
+    </prod_modeles_stock>
+    <cols arbitrable="true" page_doc="https://lcl.ca-mocca.com/lcl/catalogue-bdc/_layouts/15/WopiFrame.aspx?sourcedoc=/lcl/catalogue-bdc/Documents/ASSURANCE-VIE-PART/Part_AssVie_ProduitsFermes.docx&amp;action=default&amp;DefaultItemOpen=1">
+        <col code="HORIZON_DUREE" valeur="60">
+        </col>
+        <col code="SRRI" valeur="1"></col>
+        <col code="MT_MIN_VERST_INITIAL" valeur="0"></col>
+    </cols>
+    <produit_graphes>
+        <produit_graphe code="pat_repartition_actifs" groupe="AVOIRS_FINANCIERS"></produit_graphe>
+        <produit_graphe code="pat_repartition_actifs_financiers" groupe="ASS_VIE"></produit_graphe>
+    </produit_graphes>
+    <repartitions>
+        <repartition code="MODEL_MARCHE" repart_nul="true" type="DISPONIBILITES"></repartition>
+    </repartitions>
+    <precos phrase_complement="Compléter votre contrat #PRODUIT#" phrase_souscription="Souscrire un contrat #PRODUIT#">
+        <preco code="ZSE_RET" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSE_TR" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEBP_EP" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEBP_RET" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEBP_TR" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEBP_REV" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEGF_EP" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEGF_RET" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEGF_TR" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZSEGF_REV" complement="true" souscription="false" theme="SE"></preco>
+        <preco code="ZRET01" complement="true" souscription="false" theme="BDP_ASV"></preco>
+        <preco code="ZRET02" complement="true" souscription="false" theme="BDP_ASV"></preco>
+    </precos>
+</produit>
